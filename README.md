@@ -1,7 +1,11 @@
 Pokémon Tournament Simulator
-Welcome to the Pokémon Tournament Simulator! This project is a Python application that simulates a tournament between 16 randomly selected Pokémon using data from the PokeAPI. The program fetches Pokémon data, organizes battles based on their stats, and determines a champion through elimination rounds.
+Welcome to the Pokémon Tournament Simulator! This project is a Python application that simulates 
+a tournament between 16 randomly selected Pokémon using data from the PokeAPI. The program fetches 
+Pokémon data, organizes battles based on their stats, and determines 
+champion through elimination rounds.
 
 Table of Contents
+
 Features
 Requirements
 Installation
@@ -15,10 +19,15 @@ License
 Acknowledgments
 Features
 
-API Integration: Fetches real-time Pokémon data from the PokeAPI.
-Battle Simulation: Simulates battles based on Pokémon stats (attack and defense).
-Tournament Organization: Manages an elimination-style tournament until a champion is crowned.
-Graphical User Interface: Provides a simple GUI using Tkinter.
+
+API Integration:
+Fetches real-time Pokémon data from the PokeAPI.
+Battle Simulation:
+Simulates battles based on Pokémon stats (attack and defense).
+Tournament Organization: 
+Manages an elimination-style tournament until a champion is crowned.
+Graphical User Interface: 
+Provides a simple GUI using Tkinter.
 Unit Testing: Includes tests to ensure code reliability and correctness.
 
 src/: Contains all source code modules.
@@ -67,8 +76,7 @@ You can run the application in two modes: Command-Line Interface (CLI) or Graphi
 Command-Line Interface
 Navigate to the src/ directory:
 
-bash
-Copy code
+
 cd src
 Run the main script:
 
@@ -82,8 +90,7 @@ Ensure you are in the project's root directory.
 
 Run the main script:
 
-bash
-Copy code
+
 python src/main.py
 A window titled "Pokémon Tournament Simulator" will appear.
 
