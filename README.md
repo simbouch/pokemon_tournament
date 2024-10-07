@@ -3,7 +3,6 @@ Welcome to the Pokémon Tournament Simulator! This project is a Python applicati
 
 Table of Contents
 Features
-Project Structure
 Requirements
 Installation
 Usage
@@ -15,32 +14,13 @@ Contributing
 License
 Acknowledgments
 Features
+
 API Integration: Fetches real-time Pokémon data from the PokeAPI.
 Battle Simulation: Simulates battles based on Pokémon stats (attack and defense).
 Tournament Organization: Manages an elimination-style tournament until a champion is crowned.
 Graphical User Interface: Provides a simple GUI using Tkinter.
 Unit Testing: Includes tests to ensure code reliability and correctness.
-Project Structure
-css
-Copy code
-pokemon_tournament_simulator/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── api.py
-│   ├── pokemon.py
-│   ├── battle.py
-│   ├── tournament.py
-│   ├── gui.py
-└── tests/
-    ├── __init__.py
-    ├── test_api.py
-    ├── test_pokemon.py
-    ├── test_battle.py
-    └── test_tournament.py
+
 src/: Contains all source code modules.
 main.py: Entry point of the application.
 api.py: Handles API requests to the PokeAPI.
