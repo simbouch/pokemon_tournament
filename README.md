@@ -1,9 +1,12 @@
 Pokémon Tournament Simulator
-Welcome to the Pokémon Tournament Simulator! This project is a Python application that simulates a tournament between 16 randomly selected Pokémon using data from the PokeAPI. The program fetches Pokémon data, organizes battles based on their stats, and determines a champion through elimination rounds.
+Welcome to the Pokémon Tournament Simulator! This project is a Python application that simulates 
+a tournament between 16 randomly selected Pokémon using data from the PokeAPI. The program fetches 
+Pokémon data, organizes battles based on their stats, and determines 
+champion through elimination rounds.
 
 Table of Contents
+
 Features
-Project Structure
 Requirements
 Installation
 Usage
@@ -15,32 +18,18 @@ Contributing
 License
 Acknowledgments
 Features
-API Integration: Fetches real-time Pokémon data from the PokeAPI.
-Battle Simulation: Simulates battles based on Pokémon stats (attack and defense).
-Tournament Organization: Manages an elimination-style tournament until a champion is crowned.
-Graphical User Interface: Provides a simple GUI using Tkinter.
+
+
+API Integration:
+Fetches real-time Pokémon data from the PokeAPI.
+Battle Simulation:
+Simulates battles based on Pokémon stats (attack and defense).
+Tournament Organization: 
+Manages an elimination-style tournament until a champion is crowned.
+Graphical User Interface: 
+Provides a simple GUI using Tkinter.
 Unit Testing: Includes tests to ensure code reliability and correctness.
-Project Structure
-css
-Copy code
-pokemon_tournament_simulator/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── api.py
-│   ├── pokemon.py
-│   ├── battle.py
-│   ├── tournament.py
-│   ├── gui.py
-└── tests/
-    ├── __init__.py
-    ├── test_api.py
-    ├── test_pokemon.py
-    ├── test_battle.py
-    └── test_tournament.py
+
 src/: Contains all source code modules.
 main.py: Entry point of the application.
 api.py: Handles API requests to the PokeAPI.
@@ -87,8 +76,7 @@ You can run the application in two modes: Command-Line Interface (CLI) or Graphi
 Command-Line Interface
 Navigate to the src/ directory:
 
-bash
-Copy code
+
 cd src
 Run the main script:
 
@@ -102,8 +90,7 @@ Ensure you are in the project's root directory.
 
 Run the main script:
 
-bash
-Copy code
+
 python src/main.py
 A window titled "Pokémon Tournament Simulator" will appear.
 
