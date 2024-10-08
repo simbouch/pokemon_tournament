@@ -1,87 +1,90 @@
-****************************Pokémon Tournament Simulator**************************
+****************************Simulateur de Tournoi Pokémon**************************
 
-Welcome to the Pokémon Tournament Simulator! This project is a Python application that simulates 
-a tournament between 4 to 16 randomly selected Pokémon using data from the PokeAPI. The program fetches 
-Pokémon data, organizes battles based on their stats, and determines 
-champion through elimination rounds.
+Ce projet est une application Python qui simule un tournoi entre 4 à 16 Pokémon sélectionnés aléatoirement en utilisant les données de la PokeAPI. Le programme récupère les données des Pokémon, organise des combats en fonction de leurs statistiques et détermine le champion à travers des rondes d'élimination.
 
-***************Table of Contents*************
+***************Table des Matières*************
 
-Features
-Requirements
+Fonctionnalités
+Exigences
 Installation
-Usage
-Command-Line Interface
-Graphical User Interface
+Utilisation
+Interface en Ligne de Commande
+Interface Graphique Utilisateur
 
-****Features
-API Integration: Fetches real-time Pokémon data from the PokeAPI.
-Battle Simulation:Simulates battles based on Pokémon stats (attack and defense).
-Tournament Organization: Manages an elimination-style tournament until a champion is crowned.
-Graphical User Interface: Provides a simple GUI using Tkinter.
-Unit Testing: Includes tests to ensure code reliability and correctness.
+****Fonctionnalités
 
-src/: Contains all source code modules.
-main.py: Entry point of the application.
-api.py: Handles API requests to the PokeAPI.
-pokemon.py: Defines the Pokemon class.
-battle.py: Contains the battle logic between two Pokémon.
-tournament.py: Manages the tournament flow.
-gui.py: Provides a simple GUI using Tkinter.
-tests/: Contains unit tests for the project modules.
+Intégration API : Récupère les données Pokémon en temps réel depuis la PokeAPI.
+Simulation de Combat : Simule des combats basés sur les statistiques des Pokémon (attaque et défense).
+Organisation du Tournoi : Gère un tournoi de style élimination jusqu'à ce qu'un champion soit couronné.
+Interface Graphique Utilisateur : Fournit une interface graphique simple utilisant Tkinter.
+Tests Unitaires : Inclut des tests pour garantir la fiabilité et la précision du code.
 
-*****Requirements
+****Structure du Projet
 
-Python 3.6 or higher
-Python Packages
+src/ : Contient tous les modules de code source.
+main.py : Point d'entrée de l'application.
+api.py : Gère les requêtes API vers la PokeAPI.
+pokemon.py : Définit la classe Pokémon.
+battle.py : Contient la logique des combats entre deux Pokémon.
+tournament.py : Gère le déroulement du tournoi.
+gui.py : Fournit une interface graphique simple utilisant Tkinter.
+tests/ : Contient les tests unitaires pour les modules du projet.
+
+**** Exigences
+Python 3.6 ou supérieur
+Paquets Python
 requests==2.31.0
-tkinter (included with most Python installations)
-unittest (included with the Python standard library)
+tkinter (inclus avec la plupart des installations Python)
+unittest (inclus dans la bibliothèque standard de Python)
 
 *****Installation
 
 
-Clone the repository:
+Cloner le dépôt:
 
 git clone https://github.com/simbouch/pokemon_tournament.git
 python -m venv venv
-Activate the virtual environment:
+Créer un environnement virtuel:
 
-On Windows:
+sur  Windows:
 
 venv\Scripts\activate
 
-On macOS/Linux:
+sur macOS/Linux:
 
 source venv/bin/activate
 
 
-Install the required packages:
+Installer les paquets requis:
 
 pip install -r requirements.txt
 
 
-*****Usage
+****Utilisation
 
 
-You can run the application in two modes: Command-Line Interface (CLI) or Graphical User Interface (GUI).
+Vous pouvez exécuter l'application en deux modes : Interface en Ligne de Commande (CLI) ou Interface Graphique Utilisateur (GUI).
 
-*****Command-Line Interface
+****Interface en Ligne de Commande
 
-Navigate to the src/ directory:
+
+Naviguer vers le répertoire src/ :
 cd src
-Run the main script:
+
+Exécuter le script principal ::
 
 python main.py
 
 Watch the tournament unfold in your terminal!
 
-*****Graphical User Interface
+*****Interface Graphique Utilisateur
 
-Ensure you are in the project's root directory.
+Naviguer vers le répertoire src/ :
+cd src
 
-Run the main script:
+Exécuter le script de l'interface graphique :
 python src/main.py
-A window titled "Pokémon Tournament Simulator" will appear.
-Click the "Start Tournament" button to begin the simulation.
+
+Cela ouvrira une fenêtre graphique où vous pourrez démarrer le tournoi Pokémon en entrant le nombre de Pokémon souhaité.
+Cliquez sur le bouton « Démarrer le tournoi » pour commencer la simulation.
 
