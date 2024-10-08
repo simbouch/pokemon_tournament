@@ -75,7 +75,7 @@ Exécuter le script principal ::
 
 python main.py
 
-Watch the tournament unfold in your terminal!
+
 
 *****Interface Graphique Utilisateur
 
