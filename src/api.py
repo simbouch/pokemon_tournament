@@ -1,4 +1,13 @@
-# api.py
+"""
+api.py
+Description:
+    Manages interactions with external APIs to fetch Pokémon data required for the tournament.
+    This module handles data retrieval, parsing, and provides utilities to select random Pokémon participants.
+Version: 1.0
+Author: Bouchaib Simplon
+Email: simplonbouchaib@gmail.com
+"""
+
 
 import requests
 import random

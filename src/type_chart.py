@@ -1,4 +1,13 @@
-# type_chart.py
+"""
+type_chart.py
+Description:
+    Contains the type effectiveness chart dictating how different Pokémon types interact in battles.
+    This module provides data for calculating type multipliers during battles based on Pokémon types.
+Version: 1.0
+Author: Bouchaib Simplon
+Email: simplonbouchaib@gmail.com
+"""
+
 
 # Full type effectiveness chart
 type_chart = {

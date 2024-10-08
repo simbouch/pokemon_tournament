@@ -1,4 +1,13 @@
-# gui.py
+"""
+gui.py
+Description:
+    Handles the graphical user interface (GUI) of the Pokémon Tournament Simulator using Tkinter.
+    This module manages user interactions, displays tournament progress, battle outcomes, and Pokémon images.
+Version: 1.0
+Author: Bouchaib Simplon
+Email: simplonbouchaib@gmail.com
+"""
+
 
 import tkinter as tk
 from tkinter import ttk

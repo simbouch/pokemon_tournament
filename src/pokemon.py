@@ -1,4 +1,13 @@
-# pokemon.py
+"""
+pokemon.py
+Description:
+    Defines the Pokémon class, encapsulating Pokémon attributes, stats, and methods related to calculating
+    battle scores and managing battle mechanics.
+Version: 1.0
+Author: Bouchaib Simplon
+Email: simplonbouchaib@gmail.com
+"""
+
 
 class Pokemon:
     def __init__(self, data):
